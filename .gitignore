@@ -1,0 +1,10 @@
+# Project exclude paths
+/cmake-build-debug/
+.idea
+intel_throughput
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+CMakeFiles
+env
+enc_round.keys

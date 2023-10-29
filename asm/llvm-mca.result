@@ -1,0 +1,446 @@
+
+[0] Code Region
+
+Iterations:        1
+Instructions:      200
+Total Cycles:      54
+Total uOps:        200
+
+Dispatch Width:    6
+uOps Per Cycle:    3.70
+IPC:               3.70
+Block RThroughput: 48.0
+
+
+Instruction Info:
+[1]: #uOps
+[2]: Latency
+[3]: RThroughput
+[4]: MayLoad
+[5]: MayStore
+[6]: HasSideEffects (U)
+
+[1]    [2]    [3]    [4]    [5]    [6]    Instructions:
+ 1      1     0.50                        bswap	ebx
+ 1      1     0.50                        bswap	r14d
+ 1      1     0.50                        bswap	r15d
+ 1      1     0.50                        bswap	edi
+ 1      1     0.25                        add	ebx, -1007687205
+ 1      1     0.50                        rorx	eax, ebx, 31
+ 1      1     0.25                        add	r14d, -2015374409
+ 1      1     0.50                        rorx	ecx, r14d, 29
+ 1      1     0.25                        add	r15d, 264218479
+ 1      1     0.50                        rorx	edx, r15d, 26
+ 1      1     0.25                        add	edi, 528436958
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -2000366076
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 294235145
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 588470290
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 1176940580
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -410389975
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -820779949
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -1641559897
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 1011847503
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -956725405
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -1913450809
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 468065679
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 936131358
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, 1056873916
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 2113747832
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -67471632
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -134943263
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -1941086136
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 412795025
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 825590050
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 1651180100
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, 2023695006
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -247577284
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -495154567
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -990309133
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, 1872262716
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -550441864
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -1100883727
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 2093199843
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -269886525
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -539773049
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -1079546097
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 2135875103
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -992607096
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -1985214191
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 324538915
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 649077830
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -1980618265
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 333730767
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 667461534
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 1334923068
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -108567610
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -217135219
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -434270437
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -868540873
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -23217090
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -46434179
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -92868357
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -185736713
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, 1298155660
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -1698655976
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 897655345
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 1795310690
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -1625121160
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 1044724977
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 2089449954
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -116067388
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -1737081745
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 820803807
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 1641607614
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -1011752068
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -371473425
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -742946849
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -1485893697
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 1323179903
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -704345916
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -1408691831
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 1477583635
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -1339800026
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -232134775
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -464269549
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -928539097
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -1857078193
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -2023504135
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 247959027
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 495918054
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 991836108
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, -1648607490
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 997752317
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, 1995504634
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, -303958028
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, 1615367245
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, -1064232806
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -2128465611
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 38036075
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, 580810911
+ 1      1     0.50                        rorx	eax, eax, 31
+ 1      1     0.25                        add	ecx, 1161621822
+ 1      1     0.50                        rorx	ecx, ecx, 29
+ 1      1     0.25                        add	edx, -1971723652
+ 1      1     0.50                        rorx	edx, edx, 26
+ 1      1     0.25                        add	edi, 351519993
+ 1      1     0.50                        rorx	edi, edi, 21
+ 1      1     0.25                        add	eax, 1983672216
+ 1      1     0.50                        rorx	r10d, eax, 31
+ 1      1     0.25                        add	ecx, -327622864
+ 1      1     0.50                        rorx	r11d, ecx, 29
+ 1      1     0.25                        add	edx, -655245727
+ 1      1     0.50                        rorx	r8d, edx, 26
+ 1      1     0.25                        add	edi, -1310491453
+ 1      1     0.50                        rorx	r9d, edi, 21
+ 1      1     0.50                        bswap	r10d
+ 1      1     0.50                        bswap	r11d
+ 1      1     0.50                        bswap	r8d
+ 1      1     0.50                        bswap	r9d
+
+
+Resources:
+[0]   - ICXDivider
+[1]   - ICXFPDivider
+[2]   - ICXPort0
+[3]   - ICXPort1
+[4]   - ICXPort2
+[5]   - ICXPort3
+[6]   - ICXPort4
+[7]   - ICXPort5
+[8]   - ICXPort6
+[9]   - ICXPort7
+[10]  - ICXPort8
+[11]  - ICXPort9
+
+
+Resource pressure per iteration:
+[0]    [1]    [2]    [3]    [4]    [5]    [6]    [7]    [8]    [9]    [10]   [11]   
+ -      -     49.00  51.00   -      -      -     51.00  49.00   -      -      -     
+
+Resource pressure by instruction:
+[0]    [1]    [2]    [3]    [4]    [5]    [6]    [7]    [8]    [9]    [10]   [11]   Instructions:
+ -      -      -      -      -      -      -     1.00    -      -      -      -     bswap	ebx
+ -      -      -     1.00    -      -      -      -      -      -      -      -     bswap	r14d
+ -      -      -      -      -      -      -     1.00    -      -      -      -     bswap	r15d
+ -      -      -     1.00    -      -      -      -      -      -      -      -     bswap	edi
+ -      -      -      -      -      -      -      -     1.00    -      -      -     add	ebx, -1007687205
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, ebx, 31
+ -      -     1.00    -      -      -      -      -      -      -      -      -     add	r14d, -2015374409
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, r14d, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	r15d, 264218479
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, r15d, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 528436958
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -2000366076
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 294235145
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 588470290
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 1176940580
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -410389975
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -820779949
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -1641559897
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 1011847503
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -956725405
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -1913450809
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 468065679
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 936131358
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, 1056873916
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 2113747832
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -67471632
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -134943263
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -1941086136
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 412795025
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 825590050
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 1651180100
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, 2023695006
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -247577284
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -495154567
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -990309133
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, 1872262716
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -550441864
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -1100883727
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 2093199843
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -269886525
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -539773049
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -1079546097
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 2135875103
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -992607096
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -1985214191
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 324538915
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 649077830
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -1980618265
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 333730767
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 667461534
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 1334923068
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -108567610
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -217135219
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -434270437
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -868540873
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -23217090
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -46434179
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -92868357
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -185736713
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, 1298155660
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -1698655976
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 897655345
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 1795310690
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -1625121160
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 1044724977
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 2089449954
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -116067388
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -1737081745
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 820803807
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 1641607614
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -1011752068
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -371473425
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -742946849
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -1485893697
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 1323179903
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -704345916
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -1408691831
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 1477583635
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -1339800026
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -232134775
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -464269549
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -928539097
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -1857078193
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -2023504135
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 247959027
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 495918054
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 991836108
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, -1648607490
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 997752317
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, 1995504634
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -303958028
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, 1615367245
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -1064232806
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -2128465611
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 38036075
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, 580810911
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	eax, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, 1161621822
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	ecx, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -1971723652
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	edx, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, 351519993
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	edi, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	eax, 1983672216
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	r10d, eax, 31
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	ecx, -327622864
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	r11d, ecx, 29
+ -      -      -      -      -      -      -     1.00    -      -      -      -     add	edx, -655245727
+ -      -      -      -      -      -      -      -     1.00    -      -      -     rorx	r8d, edx, 26
+ -      -      -     1.00    -      -      -      -      -      -      -      -     add	edi, -1310491453
+ -      -     1.00    -      -      -      -      -      -      -      -      -     rorx	r9d, edi, 21
+ -      -      -      -      -      -      -     1.00    -      -      -      -     bswap	r10d
+ -      -      -     1.00    -      -      -      -      -      -      -      -     bswap	r11d
+ -      -      -      -      -      -      -     1.00    -      -      -      -     bswap	r8d
+ -      -      -     1.00    -      -      -      -      -      -      -      -     bswap	r9d
