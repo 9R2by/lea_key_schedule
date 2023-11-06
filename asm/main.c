@@ -29,21 +29,14 @@
  * @param argv
  * @return
  */
-int main(int argc, char *argv[]) {
+int main(__attribute__((unused))int argc, char *argv[]) {
    //register uint32_t t0, t1, t2, t3;
     uint32_t t0, t1, t2, t3, ui;
     uint32_t delta_arr[DELTA_ARRAY_SIZE];
-    uint64_t start, end;
-
     t0 = strtoul(argv[1], NULL, 10);
     t1 = strtoul(argv[2], NULL, 10);
     t2 = strtoul(argv[3], NULL, 10);
     t3 = strtoul(argv[4], NULL, 10);
-
-
-    MFENCE
-    start = __rdtscp(&ui);
-    LFENCE
 
     endian_conversion(t0);
     endian_conversion(t1);
@@ -267,23 +260,7 @@ int main(int argc, char *argv[]) {
     delta_arr[93] = t2;
     delta_arr[94] = t3;
 
-
-    MFENCE
-    end = __rdtscp(&ui);
-    LFENCE
-    printf("%lu %u %u %u %u\n", (end - start),  delta_arr[91],delta_arr[92], delta_arr[93], delta_arr[94]);
-
-    //io is excluded from measuring
-    FILE *file = fopen("enc_round.keys", "a");
-    if (file == NULL) {
-        printf("Unable to open/create the file.\n");
-        return EXIT_FAILURE;
-    }
-    fprintf(file, "%u\n%u\n%u\n%u\n", delta_arr[0], delta_arr[1], delta_arr[2], delta_arr[3]);
-    for(uint8_t i = 1; i < (DELTA_ARRAY_SIZE/4);  i++){
-        fprintf(file, "%u\n%u\n%u\n%u\n", delta_arr[i*4], delta_arr[(i*4)+1], delta_arr[(i*4)+2], delta_arr[(i*4)+3]);
-    }
-    fclose(file);
+    printf("%u %u %u %u\n", delta_arr[91],delta_arr[92], delta_arr[93], delta_arr[94]);
     return EXIT_SUCCESS;
 }
 
