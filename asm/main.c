@@ -31,7 +31,7 @@
  */
 int main(__attribute__((unused))int argc, char *argv[]) {
    //register uint32_t t0, t1, t2, t3;
-    uint32_t t0, t1, t2, t3, ui;
+    uint32_t t0, t1, t2, t3;
     uint32_t delta_arr[DELTA_ARRAY_SIZE];
     t0 = strtoul(argv[1], NULL, 10);
     t1 = strtoul(argv[2], NULL, 10);
