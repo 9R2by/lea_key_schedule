@@ -29,7 +29,7 @@
  * @param argv
  * @return
  */
-int main(int argc, char *argv[]) {
+int main(__attribute__((unused))int argc, char *argv[]) {
    //register uint32_t t0, t1, t2, t3;
     uint32_t t0, t1, t2, t3, ui;
     uint32_t delta_arr[DELTA_ARRAY_SIZE];
