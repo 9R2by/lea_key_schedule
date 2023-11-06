@@ -30,10 +30,10 @@
  * @return
  */
 int main(int argc, char *argv[]) {
-    register uint32_t t0, t1, t2, t3;
+   //register uint32_t t0, t1, t2, t3;
+    uint32_t t0, t1, t2, t3, ui;
     uint32_t delta_arr[DELTA_ARRAY_SIZE];
     uint64_t start, end;
-    uint32_t ui;
 
     t0 = strtoul(argv[1], NULL, 10);
     t1 = strtoul(argv[2], NULL, 10);
@@ -271,7 +271,7 @@ int main(int argc, char *argv[]) {
     MFENCE
     end = __rdtscp(&ui);
     LFENCE
-    printf("%lu\n%u\n%u\n%u\n%u\n", (end - start),  delta_arr[91],delta_arr[92], delta_arr[93], delta_arr[94]);
+    printf("%lu %u %u %u %u\n", (end - start),  delta_arr[91],delta_arr[92], delta_arr[93], delta_arr[94]);
 
     //io is excluded from measuring
     FILE *file = fopen("enc_round.keys", "a");
