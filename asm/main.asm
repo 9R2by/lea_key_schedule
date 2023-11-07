@@ -31,9 +31,6 @@ main:                                   # @main
 	xor	esi, esi
 	mov	edx, 10
 	call	strtoul
-
-
-	#start here
 	bswap	ebx
 	bswap	r14d
 	bswap	r12d
@@ -230,9 +227,6 @@ main:                                   # @main
 	rorx	ecx, edi, 26
 	add	eax, -1310491453
 	rorx	r8d, eax, 21
-
-
-	#end here
 	mov	edi, offset .L.str
 	xor	eax, eax
 	call	printf
