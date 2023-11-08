@@ -1,4 +1,6 @@
 import random
+
+import numpy as np
 from scipy import signal
 import subprocess
 import statistics
@@ -9,7 +11,7 @@ if __name__ == '__main__':
     path_to_binary = './target/lea_key_schedule'
     fig, ax = plt.subplots()
     output_text = ''
-    n = pow(2, 12)
+    n = pow(2, 18)
     median_arr = []
 
     for _ in tqdm(range(n + 1), desc="Loading", unit="Runs"):
@@ -21,6 +23,8 @@ if __name__ == '__main__':
         cycles = int(stdout.split()[0])
         median_arr.append(cycles)
 
+    sum = np.sum(median_arr)
+    print(sum/n)
     ax.plot(signal.medfilt(median_arr), label=f'Median filtered key schedule algorithm cycles per run')
     ax.set_xlabel('n')
     ax.set_ylabel('Cycles')
