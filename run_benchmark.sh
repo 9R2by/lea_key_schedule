@@ -1,7 +1,7 @@
 #!/bin/bash
 
+./build_asm.sh
 ./build.sh
-./build_script_asm.sh
 
 source env/bin/activate
 
