@@ -11,7 +11,8 @@ if __name__ == '__main__':
     path_to_binary = './target/lea_key_schedule'
     fig, ax = plt.subplots()
     output_text = ''
-    n = pow(2, 18)
+    #n = pow(2, 18)
+    n = 62500
     median_arr = []
 
     for _ in tqdm(range(n + 1), desc="Loading", unit="Runs"):
