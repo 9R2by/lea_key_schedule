@@ -267,14 +267,20 @@ int main(__attribute__((unused)) int argc, char *argv[]) {
     delta_arr[93] = t2;
     delta_arr[94] = t3;
 
+    endian_conversion(t0);
+    endian_conversion(t1);
+    endian_conversion(t2);
+    endian_conversion(t3);
+
 
     MFENCE
     end = __rdtscp(&ui);
     LFENCE
-    printf("%lu %u %u %u %u\n", (end - start),  delta_arr[91],delta_arr[92], delta_arr[93], delta_arr[94]);
+    printf("%lu %u %u %u %u\n", (end - start),  t0, t1, t2, t3);
+//    printf("AHUUU %lu", end);
 
     //io is excluded from measuring
-    FILE *file = fopen("enc_round.keys", "a");
+ /*   FILE *file = fopen("enc_round.keys", "a");
     if (file == NULL) {
         printf("Unable to open/create the file.\n");
         return EXIT_FAILURE;
@@ -283,7 +289,7 @@ int main(__attribute__((unused)) int argc, char *argv[]) {
     for(uint8_t i = 1; i < (DELTA_ARRAY_SIZE/4);  i++){
         fprintf(file, "%u\n%u\n%u\n%u\n", delta_arr[i*4], delta_arr[(i*4)+1], delta_arr[(i*4)+2], delta_arr[(i*4)+3]);
     }
-    fclose(file);
+    fclose(file);*/
     return EXIT_SUCCESS;
 }
 
